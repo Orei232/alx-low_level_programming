@@ -5,16 +5,14 @@
  * without 2 and 4
  * Return: Always 0
  */
-void _print_most_numbers(void)
+void print_most_numbers(void)
 {
-	int a = 0;
+	int a;
 
-	while (a < 10)
+	for (a = 48; a < 58; a++)
 	{
-		if (a != 2 && a != 4)
-			_putchar (a + '0');
-
-		a++;
-		_putchar ('\n');
+		if (a != 50 && a != 52)
+			_putchar (a);
 	}
+	_putchar('\n');
 }
