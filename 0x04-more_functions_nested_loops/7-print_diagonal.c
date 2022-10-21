@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - draws a diagonal line
- * @n: number of \ to be printed
+ * @n: number of '\' to be printed
  */
 
 void print_diagonal(int n)
